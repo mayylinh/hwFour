@@ -1,0 +1,76 @@
+//IF, ELSE IF, ELSE - Decision Making 
+None of the values is matching
+Exact value of a is: 100
+
+//Ternary Operator - Can use in place of if/else or switch
+Value of b is 30
+Value of b is 20
+
+//Switch -- Can use in place of if/else or turnery
+Well done
+Your grade is  B
+
+//function  --> scope of variable local vs global vs static
+12
+1 2 
+
+//RAM text,static,heap,stack
+Element[0] = 100
+Element[1] = 101
+Element[2] = 102
+Element[3] = 103
+Element[4] = 104
+Element[5] = 105
+Element[6] = 106
+Element[7] = 107
+Element[8] = 108
+Element[9] = 109
+
+//Pointers -- point to ADDRESS of RAM. Can be data or function
+Address of var variable: 61ff28
+Address stored in ip variable: 61ff30
+Value of *ip variable: 6422300
+
+//STRUCT
+Book 1 title : C Programming
+Book 1 author : Nuha Ali
+Book 1 subject : C Programming Tutorial
+Book 1 book_id : 6495407
+Book 2 title : Telecom Billing
+Book 2 author : Zara Ali
+Book 2 subject : Telecom Billing Tutorial
+Book 2 book_id : 6495700
+
+//Pointer to Struct
+Book title : C Programming
+Book author : Nuha Ali
+Book subject : C Programming Tutorial
+Book book_id : 6495407
+Book title : Telecom Billing
+Book author : Zara Ali
+Book subject : Telecom Billing Tutorial
+Book book_id : 6495700
+
+//Struct as Function Argument
+Book title : C Programming
+Book author : Nuha Ali
+Book subject : C Programming Tutorial
+Book book_id : 6495407
+Book title : Telecom Billing
+Book author : Zara Ali
+Book subject : Telecom Billing Tutorial
+Book book_id : 6495700
+
+//UNION
+Memory size occupied by data : 20
+
+//accessing variable in union. NOTE: only one can exist
+data.i : 1917853763
+data.f : 4122360580327794900000000000000.000000
+data.str : C Programming
+
+
+//another example
+data.i : 10
+data.f : 220.500000
+data.str : C Programming
