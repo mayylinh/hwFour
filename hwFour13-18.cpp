@@ -53,6 +53,8 @@ int main()
 			{
 				cout << "\nYou are over 21, you lose\n";
 				pLose = true;
+				pTotal = 0;
+				cTotal = 0;
 				break;
 			}
 			cout << "Roll again? ";
@@ -85,7 +87,7 @@ int main()
 			cTotal = 0;
 		}
 
-		cout << "Roll Again? ";
+		cout << "Play again? ";
 		cin >> again;
 		cin.ignore();
 	} 
