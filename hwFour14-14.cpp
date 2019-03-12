@@ -9,17 +9,17 @@ int main()
 	int parked, purchased;
 	const int NUM_METERS = 6;
 	ParkedCar car[NUM_METERS] = { ParkedCar("MINI", "Cooper", "white", "8GHK461", 27),
-								  ParkedCar("Acura", "MDX", "tan", "5KZT333", 90),
-								  ParkedCar("Honda", "CR-V", "green", "7EPY451", 54),
-								  ParkedCar("Mercedes-Benz", "S 550", "black", "6SSH199", 60),
-								  ParkedCar("Dodge", "Challenger", "grey", "7DMS423", 180),
-								  ParkedCar("Toyota", "Corolla", "silver", "4KLS540", 234) };
+				      ParkedCar("Acura", "MDX", "tan", "5KZT333", 90),
+				      ParkedCar("Honda", "CR-V", "green", "7EPY451", 54),
+				      ParkedCar("Mercedes-Benz", "S 550", "black", "6SSH199", 60),
+				      ParkedCar("Dodge", "Challenger", "grey", "7DMS423", 180),
+				      ParkedCar("Toyota", "Corolla", "silver", "4KLS540", 234) };
 	ParkingMeter min[NUM_METERS] = { ParkingMeter(36),
-									 ParkingMeter(180),
-									 ParkingMeter(60),
-									 ParkingMeter(59),
-									 ParkingMeter(45),
-									 ParkingMeter(10) };
+					 ParkingMeter(180),
+					 ParkingMeter(60),
+					 ParkingMeter(59),
+					 ParkingMeter(45),
+					 ParkingMeter(10) };
 
 	cout << "PARKING METER TICKET DUTY\n";
 	PoliceOfficer officer = PoliceOfficer("Daniel Stepanov", "CS-927-XX-4RN5");
