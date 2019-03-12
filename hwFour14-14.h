@@ -103,4 +103,4 @@ int ParkingMeter::getMinsPurchased() const { return minsPurchased; }
 int ParkingTicket::getFine() const { return fine; }
 
 string PoliceOfficer::getName() const { return name; }
-string PoliceOfficer::getBadge() const { return badge; }
+string PoliceOfficer::getBadge() const { return badge; } 
