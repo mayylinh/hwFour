@@ -8,8 +8,8 @@ police officer issuing a parking ticket. */
 using namespace std;
 
 /* The ParkedCar Class: This class should simulate a parked car.
-		– To know the car's make, model, color, license number, and the number of minutes
-		that the car has been parked */
+	â€“ To know the car's make, model, color, license number, and the number of minutes
+	that the car has been parked */
 class ParkedCar
 {
 private:
@@ -32,7 +32,7 @@ public:
 };
 
 /* The ParkingMeter Class: This class should simulate a parking meter.
-		– To know the number of minutes of parking time that has been purchased */
+	â€“ To know the number of minutes of parking time that has been purchased */
 class ParkingMeter
 {
 private:
@@ -46,11 +46,11 @@ public:
 };
 
 /* The ParkingTicket Class: This class should simulate a parking ticket.
-		– To report the make, model, color, and license number of the illegally parked car
-		– To report the amount of the fine, which is $25 for the first hour or part of an
-		hour that the car is illegally parked, plus $10 for every additional hour or part of
-		an hour that the car is illegally parked
-		– To report the name and badge number of the police officer issuing the ticket */
+	â€“ To report the make, model, color, and license number of the illegally parked car
+	â€“ To report the amount of the fine, which is $25 for the first hour or part of an
+	hour that the car is illegally parked, plus $10 for every additional hour or part of
+	an hour that the car is illegally parked
+	â€“ To report the name and badge number of the police officer issuing the ticket */
 class ParkingTicket
 {
 private:
@@ -69,10 +69,10 @@ public:
 };
 
 /* The PoliceOfficer Class: This class should simulate a police officer inspecting parked cars.
-		– To know the police officer’s name and badge number
-		– To examine a ParkedCar object and a ParkingMeter object, and determine
-		whether the car's time has expired
-		– To issue a parking ticket (generate a ParkingTicket object) if the car’s time has expired */
+	â€“ To know the police officerâ€™s name and badge number
+	â€“ To examine a ParkedCar object and a ParkingMeter object, and determine
+	whether the car's time has expired
+	â€“ To issue a parking ticket (generate a ParkingTicket object) if the carâ€™s time has expired */
 class PoliceOfficer
 {
 private:
